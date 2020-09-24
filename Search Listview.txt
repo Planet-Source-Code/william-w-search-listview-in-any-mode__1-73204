@@ -1,0 +1,14 @@
+Search a Listview in any mode (icon, list, report)
+searches a listview even the sub items are included
+Includes multiple selections (selects all matches throughout the listview)
+Case sensitive searches possible
+Restrict the search to a single column or search all columns(subitems)
+Fast enough to search through 20000 items as you type
+
+Upon initialization the items and subitems are appended to the tag property of each main item greatly speeding up the search.
+
+SearchListVw(Listview,Searchtext,Start,CaseSens,MultiSelect,RestrictedColumn)
+
+*Limitations* 
+no whole word only searching
+no search direction (only top to bottom)
